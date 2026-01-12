@@ -29,7 +29,8 @@ BLE 신호의 불안정한 환경에서도 **안정적인 분실 탐지**를 목
 
 ## 시스템 아키텍처
 
-<img width="800" height="370" alt="architecture" src="https://github.com/user-attachments/assets/9bff43f8-1753-47e1-823f-aa74e6da5102" />
+<img width="800" height="232" alt="스크린샷 2026-01-11 202258" src="https://github.com/user-attachments/assets/e6a12893-22e6-4f08-a63a-35848900c1a9" />
+
 
 ### 역할 분리
 
@@ -120,7 +121,8 @@ BLE 신호의 불안정한 환경에서도 **안정적인 분실 탐지**를 목
 
 ## Web UI (모니터링)
 
-<img width="700" height="756" alt="ui-table" src="https://github.com/user-attachments/assets/bc589af9-21f5-4715-98a0-6f0a5fbb1321" />
+<img width="700" height="371" alt="스크린샷 2026-01-12 151127" src="https://github.com/user-attachments/assets/74a977b1-140b-497c-8a5b-31a9de52003c" />
+
 
 ![Image](https://github.com/user-attachments/assets/47b899cf-cfc7-4093-aec4-fdd914b0c07e)
 
@@ -141,4 +143,16 @@ BLE 신호의 불안정한 환경에서도 **안정적인 분실 탐지**를 목
 ---
 
 ##  파일 구조
-
+```text
+Project-Beacon-Tag-IoT/
+├── README.md
+└── code/
+    ├── ble_client.c
+    ├── iot_client.c
+    ├── iot_server.c
+    ├── sql_client.c
+    ├── Makefile
+    ├── index.html
+    ├── sensorTable.php
+    └── sensorGraph.php
+```
